@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100%;   
+}
+
+.ql-editor{
+    font-size: 1.05rem;
+}
+
+.post-content p{
+    margin-bottom: 0.5rem;
+}
+
+.post-content h1{
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+
+.post-content h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+
+
+.post-content pre {
+  background-color: rgb(37, 40, 42);
+  color:rgba(255, 255, 255, 0.642);
+}
+
+.post-content span{
+  background-color: rgb(37, 40, 42);
+  width: auto;
+  height: auto;
+}
+
+.post-content code{
+  background-color: rgba(37, 40, 42, 0.327);
+  color: wheat;
+  padding: 3px;
+  width: auto;
+  height: auto;
+}
+
+.dark .post-content a {
+  color: rgba(225, 21, 21, 0.797);
+}
